@@ -1,110 +1,140 @@
-*{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   
+* {
+    box-sizing: border-box;
+
+    font-family: Calibri, "Segoe UI", sans-serif;
 }
 
-#logo{
-    width:30px;
-    position: absolute;
 
-    left: 10px;
-    top: 10px;
+body {
+    background:
+        radial-gradient(ellipse at top right,
+            #eeb688 0%,
+            transparent 55%),
+        radial-gradient(ellipse at top left,
+            #e3a7d7 0%,
+            transparent 55%),
+        white;
+
+    min-height: 100vh;
+    margin: 0;
 }
 
-header{
+
+.material-symbols-outlined {
+    font-size: 16px !important;
     position: relative;
-    
+    color: gray;
+    left: 125px;
 }
 
-
-
-#top_buttons{
-     position: absolute;
-     right: 10px;
-}
-
-nav{
-     position: absolute;
-     left: 40%;
-     top: 15px;
-}
-
-span{
-     position: absolute;
-     left:50px;
-     top: 15px;
-}
-
-a{
-    color: grey;
-    text-decoration: none;
-    margin: 20px;
-}
-
-#log_in{
-    background-color: black;
-    color: white;
-    border: 2px solid black;
-    border-radius: 20px;
-    padding: 5px 10px;
-    margin: 5px;
-}
-
-#sing_up{
+.arrows {
+    left:53%;
+    top: -15px;
+    padding: 3px;
+    border: 0.5px solid rgb(156, 153, 153);
     background-color: white;
-    border: 2px solid grey;
-    border-radius: 20px;
-    padding: 5px 15px;
-    margin: 5px;
+    border-radius: 50%;
 }
 
-#help{
-     background-color: white;
-     border:none;
-     position: relative;
-     top: 6px;
+
+
+#backArrow{
+    left:52.5%;
+    opacity: 0.5;
 }
 
-img{
+
+.brand-name {
+    font-size: 22px;
+    position: absolute;
+    left: 50px;
+    top: -5px;
+}
+
+img {
     width: 100px;
     border-radius: 20px;
-    
 }
 
-figure{
+figure {
     display: inline-block;
-    margin:10px;
+    margin: 2px;
 }
 
-figcaption{
-    position: relative;
-    left:18px;
+figcaption {
+    text-align: center;
+    margin-top: 5px;
 }
-main{
+
+main {
     width: 80%;
     position: relative;
     left: 25%;
     top: 150px;
 }
 
-p{
+h1 {
+    position: absolute;
+    top: -120px;
+    left: 60px;
+
+}
+
+h3 {
+    position: absolute;
+    top: -35px;
+    left: 60px;
+
+}
+
+section h3 {
+    top: 10px;
+
+}
+
+#images {
+    position: absolute;
+    top: 20px;
+    left: -31%;
+    width: 125%;
+    text-align: center;
+}
+
+p {
     display: inline-block;
-}
-
-
-#group1{
     position: relative;
-    width: 500px;
+    bottom: 35px;
+    left: 60px;
+    margin: 0;
 }
 
-#group2{
+
+#group1 {
     position: relative;
-    width: 500px;
-    left:600px;
-    bottom:620px;
+    width: 300px;
+    top: 40px;
+    left: 60px;
 }
 
-#first_section{
+#group2 {
+    position: relative;
+    width: 300px;
+    left: 440px;
+    top: -170px;
+}
+
+#first_section {
     position: relative;
     top: 200px;
+}
+
+#first_section .arrows {
+    position: relative;
+    top: 30px;
+}
+
+.tiny {
+    width: 50px;
+    height: 50px;
+    display: block;
 }
